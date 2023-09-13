@@ -5,13 +5,15 @@
   "main": "./src/index.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "dev2": "nodemon ./src/index.ts"
   },
   "author": "Sérgio C Castelani Jr",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.6.0",
     "ts-node-dev": "^2.0.0",
+    "nodemon": "^3.0.1",
     "typescript": "^5.2.2"
   }
 }
